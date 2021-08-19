@@ -32260,8 +32260,24 @@ video {
   border-style: solid;
   --tw-border-opacity: 1;
   border-color: rgba(29, 78, 216, var(--tw-border-opacity));
+}
+
+.icon-border:hover{
+  --tw-border-opacity: 1;
+  border-color: rgba(59, 130, 246, var(--tw-border-opacity));
+}
+
+.icon-border{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.stat {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .active-stats {
