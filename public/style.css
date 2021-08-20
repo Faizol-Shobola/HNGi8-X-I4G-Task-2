@@ -32252,7 +32252,7 @@ video {
   color: rgba(29, 78, 216, var(--tw-text-opacity));
 }
 
-.icon-border {
+.icon {
   height: 2.25rem;
   width: 2.25rem;
   border-radius: 9999px;
@@ -32262,14 +32262,21 @@ video {
   border-color: rgba(29, 78, 216, var(--tw-border-opacity));
 }
 
-.icon-border:hover{
+.icon:hover{
   --tw-border-opacity: 1;
   border-color: rgba(59, 130, 246, var(--tw-border-opacity));
 }
 
-.icon-border{
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+.icon{
+  padding: 0.5rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(29, 78, 216, var(--tw-text-opacity));
+}
+
+.icon:hover{
+  --tw-text-opacity: 1;
+  color: rgba(37, 99, 235, var(--tw-text-opacity));
 }
 
 .stat {
